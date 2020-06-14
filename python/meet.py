@@ -4,6 +4,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 import pyperclip
+# create credentials.py in root folder and import email and password from there
 from credentials import email,password
 from selenium.webdriver.common.keys import Keys
 from time import sleep
@@ -41,7 +42,7 @@ def invite(invitationLink):
 def start():
 
     global browser
-    browser = webdriver.Chrome(executable_path='C:\\Users\\user\\downloads\\chromedriver_win32\\chromedriver.exe',options=options)
+    browser = webdriver.Chrome(executable_path='C:\\Users\\user\\downloads\\chromedriver_win32\\chromedriver.exe',options=options) # EDIT THIS PATH
 	# Open url
     browser.get('https://meet.google.com/new')
 

@@ -7,7 +7,7 @@ rem set current dir in a variable currentWorkingDir
 set currentWorkingDir=%cd%
 
 rem path to meet.py
-cd C:\Users\user\CustomCommands\python
+cd C:\Users\user\CustomCommands\python rem EDIT THIS LINE
 
 rem run mapit.py %* takes all arguments passed with commands
 python meet.py %*
