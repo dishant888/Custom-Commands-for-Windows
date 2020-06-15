@@ -12,7 +12,7 @@ import sys
 
 options = Options()
 options.add_argument("--use-fake-ui-for-media-stream")
-options.add_argument("--user-data-dir=C:\\Users\\user\\AppData\\Local\\Google\\Chrome\\User Data\\Default")
+options.add_argument("--user-data-dir=C:\\Users\\user\\AppData\\Local\\Google\\Chrome\\User Data\\Default") # EDIT THIS LINE
 browser = ''
 
 def invite(invitationLink):

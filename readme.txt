@@ -24,6 +24,9 @@ For getting started follow the given steps
 
 	2.3: Extract the downloaded file at any location of your choice
 
+3: Running commands
+
+	To run any command open command prompt and type the command
 
 #############################################################
 

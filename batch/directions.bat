@@ -6,11 +6,11 @@ cls
 rem set current dir in a variable currentWorkingDir
 set currentWorkingDir=%cd%
 
-rem path to mapit.py
+rem path to directions.py
 cd C:\Users\user\CustomCommands\python
 
-rem run mapit.py %* takes all arguments passed with commands
-python locate.py %*
+rem run directions.py %* takes all arguments passed with commands
+python directions.py %*
 
 rem redirect back to previous working directory
 pushd %currentWorkingDir%
